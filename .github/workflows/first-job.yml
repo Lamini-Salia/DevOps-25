@@ -1,4 +1,4 @@
-name: salia
+name: anchor
 
 on: [push]
 
@@ -11,4 +11,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Say hello
-        run: echo "hello from github-action"
+        run: 
+            echo "hello from github-action"
+            ls -1a
+            
