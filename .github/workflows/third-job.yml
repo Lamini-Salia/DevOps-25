@@ -14,3 +14,4 @@ jobs:
         run: |
             echo "hello from github-action"
             ls -1a
+            cat Dockerfile
