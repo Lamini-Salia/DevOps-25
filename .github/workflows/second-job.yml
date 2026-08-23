@@ -1,4 +1,4 @@
-name: anchor
+name: second-job
 
 on: [push]
 
@@ -10,8 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Say hello
+      - name: list and read files
         run: 
             echo "hello from github-action"
             ls -1a
-            
