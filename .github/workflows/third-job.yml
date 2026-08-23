@@ -1,4 +1,4 @@
-name: second-job
+name: third-job
 
 on: [push]
 
@@ -11,6 +11,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: list and read files
-        run: 
+        run: |
             echo "hello from github-action"
             ls -1a
