@@ -1,4 +1,4 @@
-name: Docker Workflow
+name: Docker Resume Workflow
 
 on:
   push:
