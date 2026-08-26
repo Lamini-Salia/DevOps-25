@@ -1,6 +1,8 @@
+name: Docker Workflow
 
 on:
-  - push:
+  
+  push:
     branches:
       - main
     
